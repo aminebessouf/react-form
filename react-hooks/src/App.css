@@ -1,0 +1,21 @@
+.moviecard{
+    background-color: red;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.movielist {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.movielist .container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 20px;
+}
